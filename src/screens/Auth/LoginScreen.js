@@ -69,7 +69,7 @@ export default function LoginScreen({navigation}){
 
       try{
         const response = await loginUser(cpf, senha);
-
+        
         if(response.status == 200){
           api.defaults.headers.common["x-access-token"] = `Bearer ${response.data.accessToken}`;
           const usuario = response.data;
