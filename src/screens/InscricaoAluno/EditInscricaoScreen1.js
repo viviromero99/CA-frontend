@@ -271,6 +271,7 @@ export default function EditInscricaoScreen1({navigation, route}){
                             defaultValue = {inscricao.rg}
                             onChangeText = {val => handleRgChange(val)}
                         />
+                        {data.isValidRg ? <Ionicons name={Platform.OS === "ios" ? "ios-checkmark": "md-checkmark"} color="#03DAC6" size={50}/> : null}
                     </View>
 
                     <Text style = {styles.text}>Email: </Text>
