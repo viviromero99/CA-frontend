@@ -173,7 +173,6 @@ export default function CriarProjetoScreen({navigation, route}){
             prazo: resultDate,
             isValidPrazo: true,
         })
-        setShow(false);
     }
     async function criarProjeto(cpf, orientador, titulo, area, instituto, descricao, vagas, prazo){
 

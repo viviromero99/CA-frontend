@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./src/assets/images/favicon.png"
-    }
+    },
+    "description": "ConectAcademica é um aplicativo desenvolvido para conectar estudantes da UFF e projetos oferecidos por professores da universidade. ConectAcademica is an app designed to connect UFF students and projects offered by professors in university.",
+    "githubUrl": "https://github.com/viviromero99/CA-frontend"
   }
 }

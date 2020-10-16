@@ -86,7 +86,6 @@ export default function ProjetoAbertoPreviewScreen({route, navigation}){
             prazo: resultDate,
             isValidPrazo: true,
         });
-        setShow(false);
     }
 
     const handleVagasChange = (val) => {
